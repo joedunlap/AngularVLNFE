@@ -1,0 +1,6 @@
+<h2>Projects</h2>
+<div class="container">
+  <button *ngFor="let project of projects" routerLink="/projects/{{project.id}}" type="button" class="btn btn-light dash-btn">
+    {{ project.name }}
+  </button>
+</div>

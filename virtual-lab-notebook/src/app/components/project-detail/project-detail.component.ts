@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 
 interface Project {
-  _id: string;
+  id: string;
   name: string;
   description: string;
 }

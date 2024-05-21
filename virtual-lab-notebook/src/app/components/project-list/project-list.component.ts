@@ -10,7 +10,7 @@ interface Project {
 }
 
 @Component({
-  selector: 'app-project-list',
+  selector: 'project-list',
   standalone: true,
   imports: [CommonModule, RouterModule],
   templateUrl: './project-list.component.html',
